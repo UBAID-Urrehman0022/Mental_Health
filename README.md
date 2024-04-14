@@ -1,10 +1,13 @@
 # Mental-Health
-#frontend
-to run front-endwrite following commands
+Frontend
+Run the Frontend using the following commands:
 npm i
 npm start
-
-#backend
-to run backend first put the api key you create the account first in open ai apis and then genrate your secrte key i make the variable in server.js file name API , paste the key there
-then run in backend repositry npm i
-then npm run start
+Backend
+Obtain an API key from OpenAI APIs by creating an account.
+Generate your secret API key.
+In the server.js file of the backend repository, create a variable named API and paste the API key there.
+Run the following commands in the backend repository:
+npm i
+npm run start
+Make sure to replace any placeholder texts like <your_api_key_here> with your actual API key.
