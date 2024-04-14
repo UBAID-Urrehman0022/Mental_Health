@@ -1,0 +1,30 @@
+.navbar{
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+
+}
+.navbar-log0{
+    display: flex;
+    align-items: center;
+}
+.navbar-log0 h1{
+ cursor: pointer;
+ 
+}
+.navbar-links ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+    justify-content: space-between;
+
+}
+.navbar-links li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1rem;
+}

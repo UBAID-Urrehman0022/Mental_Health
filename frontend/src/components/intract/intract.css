@@ -1,0 +1,26 @@
+.interact{
+    margin:5rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.interact-input{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(125, 124, 124);
+    border-radius: 5px;
+}
+.interact-input p {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-size: 20px;
+}
+.interact-input button{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}

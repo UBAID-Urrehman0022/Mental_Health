@@ -1,0 +1,42 @@
+.HOME{
+  background-color: #1B1B1B;
+  width: 100%;
+  min-height: 100vh; 
+  margin: 0;
+  padding: 0;
+}
+.h1 {
+  padding: 4rem 6rem;
+
+}
+.h1 h1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6e1d1d;
+}
+.h2 {
+  padding: 4rem 6rem;
+  background-color: #202020;
+
+}
+.h2 h1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6e1d1d;
+}
+.h3 {
+  padding: 4rem 6rem;
+ ;
+
+}
+.h3 h1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6e1d1d;
+}

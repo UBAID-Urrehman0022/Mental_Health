@@ -1,0 +1,57 @@
+.form {
+    padding:4rem 6rem;
+    background-color: #000000;
+}
+.form h1{
+    font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.form_content{
+    margin: 2rem
+}
+label{
+    color :white;
+    font-size: 25px;
+    line-height: 48px;
+    margin: 2rem 0
+}
+input{
+    font-size: 16px;
+line-height: 36px;
+margin: 2rem 0;
+/* identical to box height */
+
+
+color: #B6B6B6;
+}
+form button{
+    width: 100%;
+    flex: 0.6;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    min-height: 50px;
+    padding: 0 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100px;
+}
+.suggestion{
+    margin: 4rem 6rem;
+    outline: 2px solid white;
+    padding: 2rem;
+}
+.suggestion p{
+    color: white;
+}

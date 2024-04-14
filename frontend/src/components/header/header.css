@@ -1,0 +1,117 @@
+.gbt__header{
+    display:flex;
+    padding: 4rem 6rem;
+    background-color: black;
+}
+.gbt__header-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+.gbt__header-content h1{
+    
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 75px; 
+    letter-spacing: -0.04em;
+    color: #c881dd;
+}
+.gbt__header-content p{
+    margin: 2rem 0;
+   
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #81AFDD;
+
+}
+
+
+.gbt__header-content__input button{
+    width: 100%;
+    flex: 0.6;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    min-height: 50px;
+    padding: 0 1rem;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.gbt__header-img{
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.gbt__header-img img{
+    width: 100%;
+    border-radius: 30%;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    .gbt__header {
+        flex-direction: column;
+    }
+
+    .gbt__header-content {
+        margin: 0 0 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .gbt__header-content h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .gbt__header-content p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .gbt__header-content__people {
+        flex-direction: column;
+    }
+
+    .gbt__header-content__people p {
+        margin: 0;
+    }
+
+    .gbt__header-content__input input,
+    .gbt__header-content__input button {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .gbt__header-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .gbt__header-content p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .gbt__header-content__input input,
+    .gbt__header-content__input button {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
